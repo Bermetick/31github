@@ -1,0 +1,27 @@
+In Python, you can use the print statement to display output:
+print("Hello, World!")
+This will print "Hello, World!" to the console.
+
+Variables in Python are dynamically typed:
+name = "John"
+age = 25
+salary = 50000.50
+
+You can print variables using the print statement:
+print("Name:", name)
+print("Age:", age)
+print("Salary:", salary)
+
+This will output:
+Name: John
+Age: 25
+Salary: 50000.5
+
+Python allows you to easily reassign values to variables:
+age = 26
+print("Updated Age:", age)
+
+This will output:
+Updated Age: 26
+
+Remember, Python is dynamically typed, so you don't need to declare the type of the variable explicitly. The interpreter infers the type based on the assigned value.
