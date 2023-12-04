@@ -1,0 +1,29 @@
+ In Python:
+
+Data Types:
+
+int: Represents integers (whole numbers).
+float: Represents floating-point numbers (decimal numbers).
+str: Represents strings (text).
+bool: Represents boolean values (True or False).
+Operators:
+
+Arithmetic Operators:
+
++ (Addition)
+- (Subtraction)
+* (Multiplication)
+/ (Division)
+% (Modulo - remainder of division)
+** (Exponentiation)
+Comparison Operators:
+
+== (Equal to)
+!= (Not equal to)
+< (Less than)
+> (Greater than)
+<= (Less than or equal to)
+>= (Greater than or equal to)
+Type Conversion:
+
+Convert between data types using functions like int(), float(), str(), bool().
