@@ -1,7 +1,6 @@
- In Python:
+In Python:
 
 Data Types:
-
 int: Represents integers (whole numbers).
 float: Represents floating-point numbers (decimal numbers).
 str: Represents strings (text).
@@ -9,23 +8,22 @@ bool: Represents boolean values (True or False).
 Operators:
 
 Arithmetic Operators:
-
 + (Addition)
 - (Subtraction)
 * (Multiplication)
 / (Division)
 % (Modulo - remainder of division)
-** (Exponentiation)
-Comparison Operators:
+ (Exponentiation)
 
+Comparison Operators:
 == (Equal to)
 != (Not equal to)
 < (Less than)
 > (Greater than)
 <= (Less than or equal to)
 >= (Greater than or equal to)
-Type Conversion:
 
+Type Conversion:
 The bool() function in Python is used to convert a value to a boolean (True or False) representation. Here's an example:
 # Example: Using bool() for type conversion
 number = 42
