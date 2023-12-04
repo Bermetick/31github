@@ -33,3 +33,10 @@ boolean_value = bool(number)
 
 print(f"Original number: {number}")
 print(f"Boolean representation: {boolean_value}")
+
+In this example, the bool() function is used to convert the numeric value 42 to its boolean representation. The result will be True for any non-zero number, and False for zero. When you run this code, it will output:
+Original number: 42
+Boolean representation: True
+
+You can use bool() to convert other types as well. For example, an empty string "" would be converted to False, while a non-empty string would be converted to True.
+Convert between data types using functions like int(), float(), str(), bool().
