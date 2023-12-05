@@ -1,0 +1,5 @@
+Control Flow:
+Control flow refers to the order in which statements are executed in a program. It allows you to make decisions and repeat actions based on certain conditions. The most common control flow structures are conditional statements (if, else, elif) and loops (for, while).
+
+If Statements:
+An if statement is a conditional statement that allows you to execute a block of code if a specified condition is true. It has the following syntax in Python:
