@@ -19,3 +19,30 @@ if x > 5:
 In this example, the condition x > 5 is true, so the indented block of code below the if statement is executed, and "x is greater than 5" is printed.
 ___________________________________________
 
+If-Else Statements:
+An if-else statement allows you to execute one block of code if the condition is true and another block if the condition is false.
+if condition:
+    # Code to be executed if the condition is true
+else:
+    # Code to be executed if the condition is false
+
+Example:
+x = 3
+
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is not greater than 5")
+
+In this example, since x is not greater than 5, the code inside the else block is executed, and "x is not greater than 5" is printed.
+__________________________________________
+
+Elif Statements:
+An elif (else if) statement is used when you have multiple conditions to check. It comes after an if statement and before an optional else statement. 
+If the preceding if statement is false, it checks the elif condition.
+if condition1:
+    # Code to be executed if condition1 is true
+elif condition2:
+    # Code to be executed if condition2 is true
+else:
+    # Code to be executed if none of the conditions are true
