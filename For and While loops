@@ -1,0 +1,20 @@
+Loops are control structures in programming that allow you to repeat a block of code multiple times.
+
+For Loop:
+A `for` loop is used when you know in advance how many times the loop should run. Its syntax typically includes an initialization, condition, and increment/decrement:
+
+```python
+for i in range(start, stop, step):
+    # Code to be repeated
+```
+
+- `start`: Initial value of the counter variable.
+- `stop`: Loop continues until the counter variable reaches this value.
+- `step`: Increment or decrement applied to the counter variable on each iteration.
+
+Example in Python:
+```python
+for i in range(1, 6):
+    print(i)
+```
+This prints numbers 1 through 5.
