@@ -11,3 +11,13 @@ for fruit in fruits:
 # apple
 # banana
 # orange
+
+# Example 2: Using the range function
+for i in range(1, 5):
+    print(i)
+
+# Output:
+# 1
+# 2
+# 3
+# 4
