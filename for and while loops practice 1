@@ -44,6 +44,49 @@ print(f'The first power of 2 greater than 100 is: {power_of_two}')
 # Output:
 # The first power of 2 greater than 100 is: 128
 
+Let's break down the steps of how the value of power_of_two evolves in each iteration of the loop:
+
+Initial State:
+power_of_two = 1
+First Iteration:
+
+bash 
+power_of_two *= 2
+# Now, power_of_two = 2
+
+Second Iteration:
+bash
+power_of_two *= 2
+# Now, power_of_two = 4
+
+Third Iteration:
+bash
+power_of_two *= 2
+# Now, power_of_two = 8
+
+Fourth Iteration:
+bash
+power_of_two *= 2
+# Now, power_of_two = 16
+
+Fifth Iteration:
+bash
+power_of_two *= 2
+# Now, power_of_two = 32
+
+Sixth Iteration:
+bash
+power_of_two *= 2
+# Now, power_of_two = 64
+
+Seventh Iteration:
+bash
+power_of_two *= 2
+# Now, power_of_two = 128
+At this point, the condition power_of_two <= 100 becomes false, and the loop exits. The final value of power_of_two is 128, which is the first power of 2 greater than 100.
+
+So, in summary, the loop doubles the value of power_of_two in each iteration until it exceeds 100, resulting in the final value of 128.
+
 
  
   
