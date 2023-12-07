@@ -1,0 +1,13 @@
+Here are examples of both for and while loops in Python:
+
+For Loop:
+  
+# Example 1: Iterating over a list
+fruits = ['apple', 'banana', 'orange']
+for fruit in fruits:
+    print(fruit)
+
+# Output:
+# apple
+# banana
+# orange
