@@ -33,5 +33,17 @@ while count < 3:
 # Count: 0
 # Count: 1
 # Count: 2
+
+# Example 2: Using a while loop to find the first power of 2 greater than 100
+power_of_two = 1
+while power_of_two <= 100:
+    power_of_two *= 2
+
+print(f'The first power of 2 greater than 100 is: {power_of_two}')
+
+# Output:
+# The first power of 2 greater than 100 is: 128
+
+
  
   
