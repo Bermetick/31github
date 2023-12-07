@@ -83,10 +83,12 @@ Seventh Iteration:
 bash
 power_of_two *= 2
 # Now, power_of_two = 128
-At this point, the condition power_of_two <= 100 becomes false, and the loop exits. The final value of power_of_two is 128, which is the first power of 2 greater than 100.
+At this point, the condition power_of_two <= 100 becomes false, and the loop exits. 
+The final value of power_of_two is 128, which is the first power of 2 greater than 100.
 
 So, in summary, the loop doubles the value of power_of_two in each iteration until it exceeds 100, resulting in the final value of 128.
 
-
- 
+These examples demonstrate the basic syntax and usage of for and while loops in Python.
+The for loop is typically used for iterating over a sequence (e.g., list, tuple, string) or using the range function,
+while the while loop is used when a certain condition needs to be satisfied for the loop to continue executing.
   
