@@ -45,3 +45,13 @@ def print_square(x):
 
 print_square(4)
 
+Example 2: Display Even or Odd
+
+def display_even_odd(number):
+    if number % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+
+display_even_odd(9)
+
