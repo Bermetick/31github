@@ -33,3 +33,15 @@ sum_result = add_numbers(3, 5)
 print("Sum:", sum_result)
 
 In this example, add_numbers takes two parameters, adds them together, and returns the result. The returned value is then stored in the variable sum_result and printed to the console.
+
+
+MORE EXAMPLES:
+
+Example 1: Print Square
+
+def print_square(x):
+    square = x ** 2
+    print("Square:", square)
+
+print_square(4)
+
