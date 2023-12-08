@@ -72,3 +72,17 @@ repeat_greeting("Bob", 3)
 
 In these examples, the functions perform various actions like printing messages, drawing lines, or repeating greetings without returning a specific value.
 This is a common scenario when you want a FUNCTION to execute some code without necessarily producing A RESULT that needs TO BE USED ELSEWHERE in the program.
+
+Function using if, else:
+
+def check_positive_negative(number):
+    if number > 0:
+        print("Positive")
+    elif number < 0:
+        print("Negative")
+    else:
+        print("Zero")
+
+check_positive_negative(5)
+check_positive_negative(-3)
+check_positive_negative(0)
