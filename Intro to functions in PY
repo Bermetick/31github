@@ -55,3 +55,11 @@ def display_even_odd(number):
 
 display_even_odd(9)
 
+Example 3: Draw a Horizontal Line
+ 
+def draw_horizontal_line(length):
+    print("-" * length)
+
+draw_horizontal_line(10)
+
+
