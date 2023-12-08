@@ -1,0 +1,10 @@
+In Python, a function is a block of reusable code that performs a specific task or set of tasks. 
+Functions are a fundamental concept in programming and are used to organize code into modular and manageable units. 
+They help improve code readability, reusability, and maintainability.
+
+Here's a basic structure of a Python function:
+ 
+def function_name(parameters):
+    # Function body
+    # Perform tasks using parameters
+    # Optionally, return a value
