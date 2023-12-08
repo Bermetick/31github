@@ -20,3 +20,16 @@ In this example, greet is a function that takes a parameter name and prints a gr
 The function is defined using the def keyword, followed by the function name and a pair of parentheses containing any parameters. The function body is indented below.
 
 To use the function, you call it with the appropriate arguments. In this case, greet("John") would print "Hello, John!" to the console.
+
+
+Functions can also return values using the return statement. Here's an example:
+ 
+def add_numbers(a, b):
+    result = a + b
+    return result
+
+# Calling the function and storing the result
+sum_result = add_numbers(3, 5)
+print("Sum:", sum_result)
+
+In this example, add_numbers takes two parameters, adds them together, and returns the result. The returned value is then stored in the variable sum_result and printed to the console.
