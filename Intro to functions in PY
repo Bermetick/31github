@@ -62,4 +62,13 @@ def draw_horizontal_line(length):
 
 draw_horizontal_line(10)
 
+Example 4: Repeat Greeting
+ 
+def repeat_greeting(name, times):
+    for _ in range(times):
+        print("Hello, " + name + "!")
 
+repeat_greeting("Bob", 3)
+
+In these examples, the functions perform various actions like printing messages, drawing lines, or repeating greetings without returning a specific value.
+This is a common scenario when you want a FUNCTION to execute some code without necessarily producing A RESULT that needs TO BE USED ELSEWHERE in the program.
