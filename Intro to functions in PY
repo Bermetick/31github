@@ -8,3 +8,15 @@ def function_name(parameters):
     # Function body
     # Perform tasks using parameters
     # Optionally, return a value
+
+# Example:
+def greet(name):
+    print("Hello, " + name + "!")
+
+# Calling the function
+greet("John")
+
+In this example, greet is a function that takes a parameter name and prints a greeting. 
+The function is defined using the def keyword, followed by the function name and a pair of parentheses containing any parameters. The function body is indented below.
+
+To use the function, you call it with the appropriate arguments. In this case, greet("John") would print "Hello, John!" to the console.
