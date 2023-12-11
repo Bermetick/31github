@@ -1,0 +1,35 @@
+In Python, a `return` statement is used in functions to send a value back to the caller. Functions can either have a `return` statement or not.
+
+Function without a return:
+```python
+def greet(name):
+    print(f"Hello, {name}!")
+
+# Calling the function
+greet("Alice")
+```
+In this example, the `greet` function prints a greeting but doesn't return any value.
+
+### Function with a return:
+```python
+def add(a, b):
+    return a + b
+
+# Calling the function
+result = add(3, 4)
+print(result)
+```
+Here, the `add` function returns the sum of its parameters, and the result is stored in the variable `result`.
+
+The key difference is that functions with a `return` statement produce a value that can be used elsewhere in your code, while functions without a `return` statement may perform actions but don't provide a result that can be assigned or used in expressions.
+
+It's worth noting that a function without a `return` statement implicitly returns `None`. For example:
+```python
+def do_something():
+    print("Doing something")
+
+result = do_something()
+print(result)  # Output: None
+```
+
+In this case, `do_something` doesn't have a `return` statement, so it returns `None` by default.
