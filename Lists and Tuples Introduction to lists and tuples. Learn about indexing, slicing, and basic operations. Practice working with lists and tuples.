@@ -44,4 +44,17 @@ Lists and tuples are two fundamental data structures in Python that allow you to
      ```
 
 
+### Tuples:
+
+#### 1. **Creation:**
+   ```python
+   my_tuple = (1, 2, 3, 'apple', 'banana')
+   ```
+
+#### 2. **Indexing:**
+   - Similar to lists.
+   ```python
+   print(my_tuple[0])  # Output: 1
+   ```
+
 
