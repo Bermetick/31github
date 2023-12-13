@@ -7,5 +7,11 @@ Lists and tuples are two fundamental data structures in Python that allow you to
    my_list = [1, 2, 3, 'apple', 'banana']
    ```
 
+#### 2. **Indexing:**
+   - Access elements using indices (starting from 0).
+   ```python
+   print(my_list[0])  # Output: 1
+   print(my_list[3])  # Output: apple
+   ```
 
 
