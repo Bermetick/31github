@@ -1,0 +1,40 @@
+Common String Operations and Methods:
+Concatenation:
+Combining two strings together.
+  
+str1 = "Hello"
+str2 = "World"
+result = str1 + " " + str2
+print(result)  # Output: Hello World
+
+
+Length:
+Finding the length of a string.
+ 
+my_string = "Python"
+length = len(my_string)
+print(length)  # Output: 6
+
+
+Indexing and Slicing:
+Accessing individual characters or a range of characters in a string.
+  
+my_string = "Hello"
+print(my_string[0])    # Output: H
+print(my_string[1:3])  # Output: el
+
+
+Conversion:
+Converting a string to lowercase or uppercase.
+ 
+my_string = "Hello"
+print(my_string.lower())  # Output: hello
+print(my_string.upper())  # Output: HELLO
+
+
+Stripping:
+Removing leading and trailing whitespaces.
+ 
+my_string = "   Hello   "
+stripped_string = my_string.strip()
+print(stripped_string)  # Output: Hello
