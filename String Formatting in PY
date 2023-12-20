@@ -1,0 +1,33 @@
+
+### String Formatting:
+
+String formatting allows you to embed variables and expressions inside strings for more dynamic content. 
+There are multiple ways to format strings, and here are a few examples using Python:
+
+1. **Using f-strings (Python 3.6 and above):**
+
+  
+   name = "John"
+   age = 25
+   print(f"My name is {name} and I am {age} years old.")
+   # Output: My name is John and I am 25 years old.
+   ```
+
+2. **Using the `format` method:**
+
+   
+   name = "Alice"
+   age = 30
+   print("My name is {} and I am {} years old.".format(name, age))
+   # Output: My name is Alice and I am 30 years old.
+   ```
+
+3. **Older method using `%` (similar to C-style formatting):**
+
+  
+   name = "Bob"
+   age = 22
+   print("My name is %s and I am %d years old." % (name, age))
+   # Output: My name is Bob and I am 22 years old.
+   ```
+
