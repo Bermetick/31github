@@ -1,5 +1,3 @@
-Конечно!
-
 Примеры использования `*args`:
 
 1. ```python
@@ -30,38 +28,3 @@
    # orange
    ```
 
-Примеры использования `**kwargs`:
-
-1. ```python
-   def print_key_value(**kwargs):
-       for key, value in kwargs.items():
-           print(f"{key}: {value}")
-   
-   print_key_value(name="John", age=25, city="New York")
-   # Output:
-   # name: John
-   # age: 25
-   # city: New York
-   ```
-
-2. ```python
-   def create_person(**kwargs):
-       return {"person_info": kwargs}
-   
-   person = create_person(name="Alice", age=30, profession="Engineer")
-   print(person)
-   # Output: {'person_info': {'name': 'Alice', 'age': 30, 'profession': 'Engineer'}}
-   ```
-
-3. ```python
-   def process_data(**kwargs):
-       if "file_path" in kwargs:
-           print(f"Processing data from {kwargs['file_path']}")
-       else:
-           print("No file path provided.")
-   
-   process_data(file_path="data.txt", format="csv")
-   # Output: Processing data from data.txt
-   ```
-
-Надеюсь, это поможет лучше понять, как использовать `*args` и `**kwargs` в Python!
