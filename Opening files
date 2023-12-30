@@ -1,8 +1,11 @@
 
-In Python, file handling is an essential part of working with data and information stored on your computer. Python provides a built-in open() function to work with files. Here's a brief introduction to working with files in Python:
+In Python, file handling is an essential part of working with data and information stored on your computer.
+Python provides a built-in open() function to work with files. Here's a brief introduction to working with files in Python:
 
 Opening a File
-To open a file, you can use the open() function. It takes two parameters: the file name and the mode in which you want to open the file. The modes include:
+To open a file, you can use the open() function. It takes two parameters: 
+the file name and the mode in which you want to open the file.
+The modes include:
 
 'r': Read (default)
 'w': Write
@@ -14,10 +17,13 @@ Copy code
 # Opening a file in read mode
 file = open('example.txt', 'r')
 
-In Python, file handling is an essential part of working with data and information stored on your computer. Python provides a built-in `open()` function to work with files. Here's a brief introduction to working with files in Python:
+In Python, file handling is an essential part of working with data and information stored on your computer.
+Python provides a built-in `open()` function to work with files. Here's a brief introduction to working with files in Python:
 
 ### Opening a File
-To open a file, you can use the `open()` function. It takes two parameters: the file name and the mode in which you want to open the file. The modes include:
+To open a file, you can use the `open()` function. It takes two parameters:
+the file name and the mode in which you want to open the file.
+The modes include:
 
 - `'r'`: Read (default)
 - `'w'`: Write
