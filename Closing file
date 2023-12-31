@@ -18,14 +18,3 @@ with open('example.txt', 'r') as file:
 ### Example: Reading and Writing
 Here's a simple example that reads from one file and writes to another: 
 
-```python
-# Reading from a file
-with open('input.txt', 'r') as input_file:
-    content = input_file.read() 
-
-# Writing to another file
-with open('output.txt', 'w') as output_file:
-    output_file.write(content)
-``` 
-
-Remember to handle exceptions, check file existence, and consider security aspects when working with files in a production environment.
